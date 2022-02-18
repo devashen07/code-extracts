@@ -11,7 +11,7 @@ The repo provides three examples represented by the three folders:
 
 The scripts contained in this folder were used for a low-fidelity proof of concept. A Flask server was developed to serve as the REST API that provides data access to visual components of data visualizations for an AR Unity application. The REST API has basic authentication to protect against unauthorized access. The API is hosted on a virtual machine. 
 
-The Data API contains dummy energy generation data for 2019. The generation data contains the energy generated per technology per hour. The data was received in CSV format, and then cleaned and restructured before being stored in a SQLite database for use in the API. A snippet of the data is provided below:
+The Data API contains dummy energy generation data from 2010 to 2020. The generation data contains the energy generated per technology per hour. The data was received in CSV format, and then cleaned and restructured before being stored in a SQLite database for use in the API. A snippet of the data is provided below:
 
 ``` Note: energy data is given in MW and not all energy types are represented ```
 
